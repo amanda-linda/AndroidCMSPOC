@@ -1,0 +1,27 @@
+{"pages" : [
+  {
+    "id": "mint",
+    "headerText": "A refreshing new way to fly.",
+    "descriptionText": "Mint is JetBlue's refreshing new take on a premium coast-to-coast experience. With fully lie-flat seats, top-notch service, artisanal dining options and revitalizing amenities, you're sure to arrive in mint conditions.",
+    "faresFrom": "$599"
+  },
+  {
+    "id": "food",
+    "headerText": "A refreshing new way to fly.",
+    "descriptionText": "This is the food description. With fully lie-flat seats, top-notch service, artisanal dining options and revitalizing amenities, you're sure to arrive in mint conditions.",
+    "faresFrom": "$599"
+  },
+  {
+    "id": "seats",
+    "headerText": "A refreshing new way to fly.",
+    "descriptionText": "The most legroom in coach. With fully lie-flat seats, top-notch service, artisanal dining options and revitalizing amenities, you're sure to arrive in mint conditions.",
+    "faresFrom": "$599"
+  },
+  {
+    "id": "service",
+    "headerText": "A refreshing new way to fly.",
+    "descriptionText": "200 JB Power Awards and counting!!! -to-coast experience. With fully lie-flat seats, top-notch service, artisanal dining options and revitalizing amenities, you're sure to arrive in mint conditions.",
+    "faresFrom": "$599"
+  }
+  ]
+}
