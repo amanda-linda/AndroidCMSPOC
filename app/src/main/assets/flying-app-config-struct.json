@@ -1,0 +1,46 @@
+{
+	"features":[
+		{  // replicable section 1-many
+			"title": ""  , // string required
+			"sections":[ //section replicable 1-many
+				{
+					"title":  ,  // string required
+					"class": "" , //string required
+					"image":{ // optional
+						"small":  ,  // string url
+						"med":  ,  // string url
+						"large":  ,  // string url
+						"xlarge":  ,  // string url
+					}, 
+					"video":{ //section optional 1 only
+						"small": ["", ""],  // array url strings 1-many
+						"med":  ["", ""],  // array url strings 1-many
+						"large": ["", ""],  // array url strings 1-many
+						"xlarge": ["", ""] // array url strings 1-many
+					},
+					"description":  ,  //string
+					"link": {  // section optional 1 only
+						"href": "",  // string optional
+						"text":""  // section optional
+					}   ,
+					"items": [  // section replicable 1-many
+						{  
+							"title":  ,  // string required
+							"image":{ // optional
+								"small":  ,  // string url
+								"med":  ,  // string url
+								"large":  ,  // string url
+								"xlarge":  ,  // string url
+							},
+							"description": , // string
+							"link": {
+								"href" : ,  // string url
+								"text" :   // string text
+							} 
+						}
+					]
+				}
+			]
+		}
+	]
+}

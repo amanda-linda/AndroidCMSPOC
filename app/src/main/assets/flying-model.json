@@ -1,0 +1,560 @@
+{
+	"features":[
+		{  
+			"title": "Snacks &amp; beverages"  , 
+			"sections":[ 
+				{
+					"title":  "Snacks & Eat Up" , 
+					"class" : "snacks image-hero",
+					"image":{
+						"small":  "/img/fojb/snacks/snacks-bg.jpg", 
+						"med":  "/img/fojb/snacks/snacks-bg.jpg",  
+						"large":  "/img/fojb/snacks/snacks-bg.jpg", 
+						"xlarge":  "/img/fojb/snacks/snacks-bg.jpg", 
+					},
+					"description": "Enjoy a wide selection of complimentary brand name snacks and beverages on every flight. Hungry for something more? Choose from our selection of Eat Up boxes for $7." ,  
+				},
+				{
+					"title": "Complimentary snacks" , 
+					"class": "snacks list-image-left",
+					"image": "/img/fojb/snacks/snacks.jpg" , 
+					"description":  ,  
+					"items": [  
+						{  
+							"description": "DORITOS&reg; Tortilla Chips" 
+						},
+						{  
+							"description": "Keebler&reg; Elf Grahams" 
+						},
+						{  
+							"description": "PopCorners&reg; Popcorn Chips" 
+						},
+						{  
+							"description": "Skeeter&trade; Nut-Free Chocolate Chip Cookies" 
+						},
+						{  
+							"description": "Snyder's&reg; 100 Calorie Pretzels" 
+						},
+						{  
+							"description": "DORITOS&reg; Tortilla Chips" 
+						},
+						{  
+							"description": "Terra&reg; Blues Potato Chips" 
+						}
+					]
+				},
+				{
+					"title": "Complimentary cold beverages" , 
+					"class": "drinks list-image-right",
+					"image": "/img/fojb/snacks/colddrinks.jpg" , 
+					"description":  ,  
+					"items": [  
+						{  
+							"description": "Coke&reg; / Diet Coke&reg; / Coke Zero&reg; / Sprite&reg; / Sprite Zero&reg;" 
+						},
+						{  
+							"description": "Seagram's&reg; Ginger Ale" 
+						},
+						{  
+							"description": "Seagram's&reg; Seltzer Water" 
+						},
+						{  
+							"description": "Seagram's&reg; Tonic Water" 
+						},
+						{  
+							"description": "Ocean Spray&reg; Cranberry Juice Cocktail" 
+						},
+						{  
+							"description": "Ocean Spray&reg; Orange Juice" 
+						},
+						{  
+							"description": "Ocean Spray&reg; Apple Juice" 
+						},
+						{  
+							"description": "Ocean Spray&reg; Pineapple Juice" 
+						},
+						{  
+							"description": "Campbell's&reg; Tomato Juice" 
+						},
+						{  
+							"description": "Mr. & Mrs. T&reg; Bloody Mary Mix" 
+						},
+						{  
+							"description": "Fuze Iced Tea&reg;" 
+						},
+						{  
+							"description": "Dasani&trade; Bottled Water" 
+						}
+					]
+				},
+				{
+					"title": "Complimentary hot beverages" , 
+					"class": "drinks list-image-left",
+					"image": "/img/fojb/snacks/hotdrinks.jpg" , 
+					"description":  ,  
+					"items": [  
+						{  
+							"description": "Dunkin' Donuts&reg; Coffee Decaf / Original" 
+						},
+						{  
+							"description": "Dunkin' Donuts&reg; Tea / Green / Original" 
+						}
+					]
+				},
+				{
+					"title": "Alcoholic beverages ($6 - $9)" , 
+					"class": "drinks list-image-right",
+					"image": "/img/fojb/snacks/saintececile20150716_v2.jpg" , 
+					"description":  ,  
+					"items": [  
+						{  
+							"description": "Dunkin' Donuts&reg; Coffee Decaf / Original" 
+						},
+						{  
+							"description": "Dunkin' Donuts&reg; Tea / Green / Original" 
+						}
+					]
+				},
+				{
+					"title": "Eat Up boxes ($7)" ,
+					"class" : "eatup tabs-image-left", 
+					"items": [  
+						{  
+							"title": "Shake Up" , 
+							"image":{
+								"small":  "/img/fojb/snacks/eatup-boxes/ShakeUp.png", 
+								"med": "/img/fojb/snacks/eatup-boxes/ShakeUp.png", 
+								"large": "/img/fojb/snacks/eatup-boxes/ShakeUp.png", 
+								"xlarge":  "/img/fojb/snacks/eatup-boxes/ShakeUp.png"
+							},
+							"description": "Shake up your usual snacking routine with these delicious artisanal bites. The Shake Up box includes: Rondele Cheese Spread, KIND Bar Mini — Cranberry Almond, NY Nut Factory Roasted Cashews, Vermont Smoke & Cure BBQ Beef Jerky stick,Stacy's&reg; Pita Chips" ,  
+						},
+						{  
+							"title": "Perk Up" , 
+							"image":{
+								"small": "/img/fojb/snacks/eatup-boxes/PerkUp.png", 
+								"med":  "/img/fojb/snacks/eatup-boxes/PerkUp.png", 
+								"large": "/img/fojb/snacks/eatup-boxes/PerkUp.png", 
+								"xlarge": "/img/fojb/snacks/eatup-boxes/PerkUp.png"
+							},
+							"description": "The perks of this box? Simple — tasty travel treats any time of day!",
+						},
+						{  
+							"title": "Fill Up" , 
+							"image":{
+								"small":  "/img/fojb/snacks/eatup-boxes/FillUp.png", 
+								"med":  "/img/fojb/snacks/eatup-boxes/FillUp.png", 
+								"large": "/img/fojb/snacks/eatup-boxes/FillUp.png", 
+								"xlarge":  "/img/fojb/snacks/eatup-boxes/FillUp.png", 
+							},
+							"description": "A little bit salty and a little bit sweet, fill up on snacks that are quite a treat.",
+						},
+						{  
+							"title": "Pick Me Up" , 
+							"image":{
+								"small":  "/img/fojb/snacks/eatup-boxes/PickMeUp.png", 
+								"med":  "/img/fojb/snacks/eatup-boxes/PickMeUp.png", 
+								"large": "/img/fojb/snacks/eatup-boxes/PickMeUp.png", 
+								"xlarge": "/img/fojb/snacks/eatup-boxes/PickMeUp.png", 
+							},
+							"description": "Here's to a great flight! The tasty Pick me up selection is the perfect complement to our hand-picked wines. Crack it open and let your Happy Hour begin.",
+						},
+						{  
+							"title": "Pump Up" , 
+							"image":{
+								"small":  "/img/fojb/snacks/eatup-boxes/PumpUp.png", 
+								"med":   "/img/fojb/snacks/eatup-boxes/PumpUp.png", 
+								"large": "/img/fojb/snacks/eatup-boxes/PumpUp.png", 
+								"xlarge":  "/img/fojb/snacks/eatup-boxes/PumpUp.png", 
+							},
+							"description": "Gluten-free, vegan, & healthy, oh my! These snacks will pump pure goodness throughout your body.",
+						}
+					]
+				}
+				{
+					"title": "Eat Up Caf&eacute; ($3 - $12)" , 
+					"class" : "eatup tabs-image-right", 
+					"description": "Available only on flights between New York or Boston and Los Angeles, Long Beach, or San Francisco, and flights between Fort Lauderdale and Los Angeles, San Francisco, or Lima, Peru." ,  
+					"items": [  
+						{  
+							"title": "Grilled Chicken & Brie Sandwich" , 
+							"image":{
+								"small": "/img/fojb/snacks/eatup-cafe/GrilledChickenBrieSandwich2.jpg", 
+								"med": "/img/fojb/snacks/eatup-cafe/GrilledChickenBrieSandwich2.jpg", 
+								"large": "/img/fojb/snacks/eatup-cafe/GrilledChickenBrieSandwich2.jpg", 
+								"xlarge": "/img/fojb/snacks/eatup-cafe/GrilledChickenBrieSandwich2.jpg", 
+							},
+							"description": "Grilled chicken, brie, arugula and cranberry mustard on a rustic roll, served with a side of fresh fruit." ,  
+						},
+						{  
+							"title": "Kale Salad" , 
+							"image":{
+								"small": "/img/fojb/snacks/eatup-cafe/KaleSalad.jpg", 
+								"med":  "/img/fojb/snacks/eatup-cafe/KaleSalad.jpg", 
+								"large": "/img/fojb/snacks/eatup-cafe/KaleSalad.jpg", 
+								"xlarge": "/img/fojb/snacks/eatup-cafe/KaleSalad.jpg", 
+							},
+							"description": "Cannellini beans, dried blueberries and cranberries, quinoa and grape tomatoes over chopped kale and spring greens, served with white balsamic vinaigrette.",
+						},
+						{  
+							"title": "Cheese Plate" , 
+							"image":{
+								"small":  "/img/fojb/snacks/eatup-cafe/CheeseTray_v2.jpg", 
+								"med": "/img/fojb/snacks/eatup-cafe/CheeseTray_v2.jpg", 
+								"large": "/img/fojb/snacks/eatup-cafe/CheeseTray_v2.jpg", 
+								"xlarge": "/img/fojb/snacks/eatup-cafe/CheeseTray_v2.jpg", 
+							},
+							"description": "An assortment from Beecher's Handmade Cheese: Aged Flagship, creamy Dutch Hollow Dulcet, peppery Marco Polo, and Jamaican Jerk-seasoned No Woman. Served with Beecher's Original Crackers, honey, and fresh grapes.",
+						},
+						{  
+							"title": "Sirloin Sandwich" , 
+							"image":{
+								"small": "/img/fojb/snacks/eatup-cafe/SavorySirloinSandwich2.jpg", 
+								"med": "/img/fojb/snacks/eatup-cafe/SavorySirloinSandwich2.jpg", 
+								"large": "/img/fojb/snacks/eatup-cafe/SavorySirloinSandwich2.jpg", 
+								"xlarge":  "/img/fojb/snacks/eatup-cafe/SavorySirloinSandwich2.jpg", 
+							},
+							"description": "Top sirloin steak, red-wine caramelized onions, white cheddar cheese, spinach and horseradish cream on a rustic roll, served with a side of fresh fruit.",
+						},
+						{  
+							"title": "Spicy Soba & Korean-Style Chicken" , 
+							"image":{
+								"small": "/img/fojb/snacks/eatup-cafe/SpicySobaKoreanStyleChicken.jpg", 
+								"med":  "/img/fojb/snacks/eatup-cafe/SpicySobaKoreanStyleChicken.jpg", 
+								"large": "/img/fojb/snacks/eatup-cafe/SpicySobaKoreanStyleChicken.jpg", 
+								"xlarge": "/img/fojb/snacks/eatup-cafe/SpicySobaKoreanStyleChicken.jpg", 
+							},
+							"description": "Korean-style grilled chicken and buckwheat soba noodles with sesame-seasoned carrot and cucumber slaw, a hard-boiled egg and spicy chili glaze.",
+						},
+						{  
+							"title": "Chobani Yogurt" , 
+							"image":{
+								"small":  "/img/fojb/snacks/eatup-cafe/ChobaniYogurtAndGranola_v2.jpg", 
+								"med":  "/img/fojb/snacks/eatup-cafe/ChobaniYogurtAndGranola_v2.jpg", 
+								"large": "/img/fojb/snacks/eatup-cafe/ChobaniYogurtAndGranola_v2.jpg", 
+								"xlarge":  "/img/fojb/snacks/eatup-cafe/ChobaniYogurtAndGranola_v2.jpg", 
+							},
+							"description": "Fat-free plain Chobani yogurt served with granola and a side of honey.",
+						}
+					]
+				}
+			]
+		},
+		{  
+			"title": "JetBlue Mint"  , 
+			"sections":[ 
+			//hero
+				{
+					"title": "A new way to fly" , 
+					"class" : "mint-hero video-hero",
+					"video":{ 
+						"small": ["mint_sm.mp4", "mint_sm.webm"],  
+						"med":  ["mint_med.mp4", "mint_med.webm"],  
+						"large": ["mint_lg.mp4", "mint_lg.webm"]  ,  
+						"xlarge": ["mint_xl.mp4", "mint_xl.webm"]
+					},
+					"description": "Mint is JetBlue's refreshing new take on a premium coast-to-coast experience &ndash; it's top-notch service and stylish seats on our brand-new A321 aircraft without the four-digit fares you might find on other airlines. With Mint's fully-flat seats, fresh dining options and revitalizing amenities, we're certain you'll be kept in Mint condition throughout your travels." ,  
+				}
+			//routes
+				{
+					"title":  "Mint Routes", 
+					"class" : "mint-routes",
+					"description": "Fares From <em>$599</em> one-way" ,  
+					"link": { "href": "http://book.jetblue.com", "text":"BOOK NOW" }   ,
+					"items": [  
+						{  
+							"title":  "JFK - LAX", 
+							"description": "",   
+						},
+						{  
+							"title":  "JFK - SFO", 
+							"description": "",   
+						},
+						{  
+							"title":  "JFK - AUA", 
+							"description": "seasonal Saturday service: 11/7 – 4/30/16, daily service: 12/19 – 1/4/16",  
+						},
+						{  
+							"title":  "JFK - BGI", 
+							"description":  "seasonal Saturday service: 11/7 – 4/30/16, daily service: 12/19 – 1/4/16" 
+						},
+						{  
+							"title":  "BOS - LAX", 
+							"description": "service begins in fall 2016 with a booking date to follow",   
+						},
+						{  
+							"title":  "BOS - SFO", 
+							"description": "service begins 3/24/16",   
+						},
+						{  
+							"title":  "BOS - BGI", 
+							"description": "seasonal Saturday service begins 3/26/16",   
+						}		
+					]
+				},
+			//experience
+				{
+					"title": "THE MINT EXPERIENCE" , 
+					"class" : "mint-experience",
+					"image":{
+						"small":  , 
+						"med":  ,  
+						"large":  , 
+						"xlarge":  , 
+					},
+					"description":  ,  
+					"items": [  
+						{  
+							"title": "Faster check-in" , 
+							"description": "Enter the Mint queue and receive expedited check-in service." 
+						},
+						{  
+							"title": "Speed-thru security" , 
+							"description": "Go through security screening quickly by entering the fastest lane available." 
+						},						
+						{  
+							"title": "Early boarding" , 
+							"description": "Be among the first to take your seat on the plane." 
+						},						
+						{  
+							"title": "Free FlyFi&reg;" , 
+							"description": "Fly-Fi® 3 is real broadband internet in the sky – and it's free! This onboard innovation delivers an incredible online experience, much like youâ€™d expect at home or at work. Plus, access tons of entertaining content from great partners – Vice, Wall Street Journal and Amazon (coming soon!) – in and out of coverage on our content portal, The Hub!" 
+						},						
+						{  
+							"title": "Nonstop entertainment" , 
+							"description": "Access our other inflight entertainment offerings like DIRECTV® and SiriusXM Radio® on our new 15&quot; video screens." 
+						},						
+						{  
+							"title": "Sweet seats" , 
+							"description": "Kick back and relax in our comfy, fully lie-flat seats, complete with massage feature and adjustable firmness." 
+						},						
+						{  
+							"title": "Dine in style" , 
+							"description": "Enjoy delicious meal options from our restaurant partner, Saxon + Parole, then finish it up with treats from Mah-Ze-Dahr Bakery and Blue Marble Ice Cream!" 
+						},						
+						{  
+							"title": "Curated comforts" , 
+							"description": "Top off your trip with the latest in grooming, travel and lifestyle products from our exclusive partners at Birchbox." 
+						},						
+						{  
+							"title": "First bag to carousel" , 
+							"description": "Be one of the first to collect your bags at Mint's preferred baggage claim." 
+						}
+					]
+				},
+			//scroller
+				{
+					"title": "Sweet Seats" , 
+					"class": "sweet-seats image-scroller", 
+					"image":{
+						"small":  , 
+						"med":  ,  
+						"large":  , 
+						"xlarge":  , 
+					},
+					"description": "Sit back (all the way back) and relax! JetBlue Mint includes lie-flat seats in the front of our cabin, four of which are suites. These super-comfy seats offer plenty of room, a massage feature, cushions with adjustable firmness and the ability to lie completely flat for much-needed naps. And for extra privacy, Mint suites have their own door." ,  
+					"items": [  
+						{  
+							"image":{
+								"small":  "//www.jetblue.com/test/ab/mint/img/seats-pic1.png", 
+								"med":  "//www.jetblue.com/test/ab/mint/img/seats-pic1.png", 
+								"large":   "//www.jetblue.com/test/ab/mint/img/seats-pic1.png", 
+								"xlarge":  "//www.jetblue.com/test/ab/mint/img/seats-pic1.png", 
+							}
+						},
+						{  
+							"image":{
+								"small":  "//www.jetblue.com/test/ab/mint/img/seats-pic2.png", 
+								"med":  "//www.jetblue.com/test/ab/mint/img/seats-pic2.png", 
+								"large":   "//www.jetblue.com/test/ab/mint/img/seats-pic2.png", 
+								"xlarge":  "//www.jetblue.com/test/ab/mint/img/seats-pic2.png", 
+							}
+						},
+						{  
+							"image":{
+								"small":  "//www.jetblue.com/test/ab/mint/img/seats-pic3.png", 
+								"med":  "//www.jetblue.com/test/ab/mint/img/seats-pic3.png", 
+								"large":   "//www.jetblue.com/test/ab/mint/img/seats-pic3.png", 
+								"xlarge":  "//www.jetblue.com/test/ab/mint/img/seats-pic3.png", 
+							}
+						}
+					]
+				},
+			//trio
+				{
+					"title":  "Pre-boarding", 
+					"class": "feature-trio", 
+					"items": [  
+						{  
+							"title":  "Dedicated check-in", 
+							"description": "At the airport, Mint customers will have access to a dedicated Mint queue that offers expedited check-ins.", 
+						},
+						{  
+							"title":  "Early boarding", 
+							"description": "When you choose the Mint experience, you'll also enjoy the option to be among the first to board the aircraft.", 
+						},
+						{  
+							"title":  "Even More® Speed", 
+							"description": "Get to the gate faster and expedite the screening process with access to the quickest possible security lane.", 
+						}						
+					]
+				},
+			//baggage
+				{
+					"title":  "In the bag", 
+					"class" : "mint-baggage tid-image-left",
+					"image":{
+						"small":  "/flying-on-jetblue/mint/img/baggage.png", 
+						"med":   "/flying-on-jetblue/mint/img/baggage.png", 
+						"large":   "/flying-on-jetblue/mint/img/baggage.png", 
+						"xlarge":   "/flying-on-jetblue/mint/img/baggage.png", 
+					},
+					"description": "The perks of Mint don't end after your flight. Be one of the first to collect your bags at the carousel with preferred baggage claim." 
+				},
+			//free fly-fi
+				{
+					"title":  "Free Fly-Fi®", 
+					"class" : "mint-flyfi tid-image-right",
+					"image":{
+						"small":  "/flying-on-jetblue/mint/img/Fly-Fi-logo.png", 
+						"med": "/flying-on-jetblue/mint/img/Fly-Fi-logo.png",  
+						"large":  "/flying-on-jetblue/mint/img/Fly-Fi-logo.png", 
+						"xlarge":  "/flying-on-jetblue/mint/img/Fly-Fi-logo.png", 
+					},
+					"description":  "Mint customers will be able to enjoy complimentary Fly-Fi, JetBlue's own broadband Internet service, so you can surf the web up in the air."
+				},
+			//entertainment
+				{
+					"title": "Mint customers will be able to enjoy complimentary Fly-Fi, JetBlue's own broadband Internet service, so you can surf the web up in the air." , 
+					"class" : "mint-entertainment image-hero",
+					"image":{
+						"small": "/flying-on-jetblue/mint/img/nonstop-entertainment.png", 
+						"med": "/flying-on-jetblue/mint/img/nonstop-entertainment.png", 
+						"large": "/flying-on-jetblue/mint/img/nonstop-entertainment.png", 
+						"xlarge": "/flying-on-jetblue/mint/img/nonstop-entertainment.png", 
+					},
+					"description": "Our new 15&quot; interactive video screens are quite a vision! As part of the Mint experience, you'll continue to enjoy the inflight entertainment you know and love from JetBlue, including up to 100 channels from DirecTV, SiriusXM Radio and access to Fly-Fi®, real broadband Internet in the sky." ,  
+				},
+			//mintroducing fresh fare
+				{
+					"title": "Mintroducing: Fresh fare in the air" , 
+					"class" : "mint-fare tid-image-left", 
+					"image":{
+						"small":  "/flying-on-jetblue/mint/img/Mint-tray.png", 
+						"med": "/flying-on-jetblue/mint/img/Mint-tray.png",   
+						"large":  "/flying-on-jetblue/mint/img/Mint-tray.png", 
+						"xlarge":  "/flying-on-jetblue/mint/img/Mint-tray.png", 
+					},
+					"description":  "For some delicious inflight bites, we've partnered with renowned New York restaurant Saxon + Parole to create a small-plates menu. Choose from a variety of freshly prepared options that'll make you forget you're 35,000 feet in the air. Plus, you'll enjoy a variety of artisanal snacks straight from Mah-Ze-Dahr Bakery, A Colicchio Discovery, and, because ice cream belongs everywhere, savor some cool treats from Blue Marble Ice Cream! The Mint experience also boasts full-bottle wine service curated by wine expert Jon Bonné, espresso-based drinks from Brooklyn Roasting Company, a signature refreshmint and complimentary alcoholic beverages.",  
+				},
+			//current menu
+				{
+					"title":  "October Menu", 
+					"class" : "current-menu centered-links-list",
+					"description":  "<em>Note:</em> If you have a special dietary request, you may choose from Kosher, vegan, low-calorie and gluten-free meal options — or a simpler Plane Eats menu. Kosher special meal requests must be added 48 hours before departure and all other special meal requests must be added 24 hours before departure by calling 1-800-JETBLUE.",  
+					"items": [  
+						{  
+							"link": { 
+								"href": "//www2.jetblue.com/flying-on-jetblue/mint/menu/2015-10/MintMenu_Oct15_Brunch_Eastbound_01.pdf", 
+								"text":"Eastbound brunch" 
+							}  
+						},
+						{  
+							"link": { 
+								"href": "//www2.jetblue.com/flying-on-jetblue/mint/menu/2015-10/MintMenu_Oct15_LunchDinner_Eastbound_01.pdf", 
+								"text":"Eastbound lunch/dinner" 
+							}  
+						},
+						{  
+							"link": { 
+								"href": "//www2.jetblue.com/flying-on-jetblue/mint/menu/2015-10/MintMenu_Oct15_Shuteye_01.pdf", 
+								"text":"Eastbound shuteye" 
+							}  
+						},
+						{  
+							"link": { 
+								"href": "//www2.jetblue.com/flying-on-jetblue/mint/menu/2015-10/MintMenu_Oct15_Brunch_Westbound_01.pdf", 
+								"text":"Westbound brunch" 
+							}  
+						},
+						{  
+							"link": { 
+								"href": "//www2.jetblue.com/flying-on-jetblue/mint/menu/2015-10/MintMenu_Oct15_LunchDinner_Westbound_01.pdf", 
+								"text":"Westbound lunch/dinner" 
+							}  
+						}
+					]
+				},
+			//special menus
+				{
+					"title":  "Special meal menus", 
+					"class" : "special-menus centered-links-list",
+					"items": [  
+						{  
+							"link": { 
+								"href": "//www2.jetblue.com/flying-on-jetblue/mint/menu/special/MintMenu_Special_GlutenFree.pdf", 
+								"text":"Gluten-free" 
+							}  
+						},
+						{  
+							"link": { 
+								"href": "//www2.jetblue.com/flying-on-jetblue/mint/menu/special/MintMenu_Special_Kosher.pdf", 
+								"text":"Kosher" 
+							}  
+						},
+						{  
+							"link": { 
+								"href": "//www2.jetblue.com/flying-on-jetblue/mint/menu/special/MintMenu_Special_LowCalorie.pdf", 
+								"text":"Low calorie" 
+							}  
+						},
+						{  
+							"link": { 
+								"href": "//www2.jetblue.com/flying-on-jetblue/mint/menu/special/MintMenu_Special_PlaneEats.pdf", 
+								"text":"Plane Eats" 
+							}  
+						},
+						{  
+							"link": { 
+								"href": "//www2.jetblue.com/flying-on-jetblue/mint/menu/special/MintMenu_Special_Vegan.pdf", 
+								"text":"Vegan" 
+							}  
+						}
+					]
+				},
+			//mintorducing refresher kits
+				{
+					"title":  "Mintroducing, Refreshing onboard &amp; off", 
+					"class" : "mint-refreshers tid-video-right",
+					"video":{ 
+						"small": ["kits_sm.mp4", "kits_sm.webm"],  
+						"med":  ["kits_med.mp4", "kits_med.webm"],  
+						"large": ["kits_lg.mp4", "kits_lg.webm"]  ,  
+						"xlarge": ["kits_xl.mp4", "kits_xl.webm"]
+					},
+					"description": "To top off the Mint experience, you'll go home with a complimentary amenity kit filled with editor-approved beauty, grooming and lifestyle products from our exclusive partner, Birchbox (for both men and women), as well as an artisanal sweet treat as a parting gift." ,  
+
+				},
+			//cta
+				{
+					"title":  "Simply Mint to be", 
+					"class": "book-cta image-hero",
+					"image":{
+						"small": "/flying-on-jetblue/mint/img/A321-plane.png", 
+						"med":  "/flying-on-jetblue/mint/img/A321-plane.png",  
+						"large":  "/flying-on-jetblue/mint/img/A321-plane.png", 
+						"xlarge":  "/flying-on-jetblue/mint/img/A321-plane.png", 
+					},
+					"link": { "href": "http://book.jetblue.com", "text":"Book a Mint Seat" }   
+				},
+			//faq
+				{
+					"title": "Frequently asked questions", 
+					"class": "mint-faq",
+					"description": "Yeah, no.  Not putting all that in a POC." ,  
+
+				}
+			]
+		}
+	]
+}
