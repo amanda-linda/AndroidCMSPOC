@@ -7,6 +7,7 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 
 import android.os.Bundle;
+import android.text.Html;
 import android.util.Log;
 
 import android.view.LayoutInflater;
@@ -16,7 +17,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
 
-import android.widget.EditText;
+import android.widget.GridView;
 import android.widget.TextView;
 
 
@@ -51,7 +52,7 @@ public class Navigation extends Activity
     public String loadJSONFromAsset() {
         String json = null;
         try {
-            InputStream is = getAssets().open("staticData.json");
+            InputStream is = getAssets().open("flying-model.json");
             Log.d("Stream","");
 
             int size = is.available();
@@ -89,10 +90,11 @@ public class Navigation extends Activity
         try {
             pageList = new ArrayList<>();
 
-            pages =  json.getJSONArray("pages");
+            pages =  json.getJSONArray("features");
             int count = pages.length(); // get totalCount of all jsonObjects
             for(int i=0 ; i< count; i++) {   // iterate through jsonArray
-                String name = pages.getJSONObject(i).getString("id");
+
+                String name = (pages.getJSONObject(i).getString("title"));
                 pageList.add(name);
             }
 
@@ -126,7 +128,7 @@ Log.d("INFLATE", pageJSON);
         //Insert page data here
         fragmentManager.beginTransaction()
                 .setCustomAnimations(R.anim.enter,R.anim.exit)
-                .replace(R.id.container, PlaceholderFragment.newInstance(position + 1, pageJSON ))
+                .replace(R.id.container, DetailsFragment.newInstance(position + 1, pageJSON))
                 .commit();
     }
 
@@ -170,7 +172,7 @@ Log.d("INFLATE", pageJSON);
     /**
      * A placeholder fragment containing a simple view.
      */
-    public static class PlaceholderFragment extends Fragment {
+    public static class DetailsFragment extends Fragment {
         /**
          * The fragment argument representing the section number for this
          * fragment.
@@ -183,9 +185,9 @@ Log.d("INFLATE", pageJSON);
          * Returns a new instance of this fragment for the given section
          * number.
          */
-        public static PlaceholderFragment newInstance(int sectionNumber, String pageJSON) {
+        public static DetailsFragment newInstance(int sectionNumber, String pageJSON) {
 
-            PlaceholderFragment fragment = new PlaceholderFragment();
+            DetailsFragment fragment = new DetailsFragment();
             Bundle args = new Bundle();
             args.putInt(ARG_SECTION_NUMBER, sectionNumber);
             args.putString(ARG_JSON, pageJSON);
@@ -194,7 +196,7 @@ Log.d("INFLATE", pageJSON);
             return fragment;
         }
 
-        public PlaceholderFragment() {
+        public DetailsFragment() {
         }
 
         @Override
@@ -203,7 +205,6 @@ Log.d("INFLATE", pageJSON);
             View rootView = inflater.inflate(R.layout.fragment_navigation, container, false);
 
             //Just testing, this is actually useless
-            TextView description = (TextView) rootView.findViewById(R.id.textContent);
             int num =  getArguments() != null ? getArguments().getInt(ARG_SECTION_NUMBER) : -1;
 
             String str =  getArguments() != null ? getArguments().getString(ARG_JSON) : "";
@@ -213,11 +214,37 @@ Log.d("INFLATE", pageJSON);
             } catch (JSONException e) {
                 e.printStackTrace();
             }
-
-            String text = getString("descriptionText");// Query your 'last value'
+            //Populate description Text box
+            TextView description = (TextView) rootView.findViewById(R.id.descriptionContent);
+            String text = getString("description");// Query your 'last value'
             description.setText(text);
+
+            GridView content = (GridView) rootView.findViewById(R.id.pageContentGrid);
+
+            JSONObject[] list = null;
+            try {
+                JSONArray objects = null;
+                objects = data.getJSONArray("sections");
+                list = jsonArraytoList(objects);
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+
+            PageDataAdapter dataAdapter = new PageDataAdapter(getActivity(), R.id.pageContentGrid,list);
+
+            content.setAdapter(dataAdapter);
+
             return rootView;
 
+        }
+
+        private JSONObject[] jsonArraytoList(JSONArray array) throws JSONException {
+            JSONObject[] object = new JSONObject[array.length()];
+
+            for (int i=0; i<array.length(); i++) {
+                object[i]= array.getJSONObject(i);
+            }
+            return object;
         }
 
         private String getString(String key){
@@ -227,7 +254,7 @@ Log.d("INFLATE", pageJSON);
             } catch (JSONException e) {
                 e.printStackTrace();
             }
-            return result;
+            return Html.escapeHtml(result);
         }
 
         @Override
