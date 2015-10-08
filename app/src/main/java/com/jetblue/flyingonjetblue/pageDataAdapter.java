@@ -79,10 +79,21 @@ public class PageDataAdapter extends ArrayAdapter {
     };
 
     /**
-     * This is admittedly a really annoying way to do this. May should find a library to make JSON less annoying to work woth
-     * @param key
-     * @param obj
-     * @return
+     * This semi-recursion is admittedly a really annoying way to do this. The problem is that sometimes we have:
+     *
+     * "image" : "image url"
+     *
+     * other times we have
+     *
+     * "image" : {
+     *     "small":
+     *     "med" :...
+     * }
+     *
+     * May should find a library to make JSON less annoying to work with.
+     * @param key : JSON key to look for URL at
+     * @param obj : JSON object to look for key in
+     * @return URL String or empty string
      */
     private String getURLString(String key, JSONObject obj){
         String result = "";
@@ -112,13 +123,9 @@ public class PageDataAdapter extends ArrayAdapter {
 
         holder.img = (ImageView) rowView.findViewById(R.id.featureImage);
 
-        ImageLoader imgLoader = new ImageLoader();
-        imgLoader.setImageView(holder.img);
-        imgLoader.execute(getURLString("image", item));
-        // Bitmap image = Utility.loadImageFromURL(getURLString("image", item));
-       // holder.img.setImageResource(imageId[position]);
-       // Log.d("IMAGE", image.toString());
-       // holder.img.setImageBitmap(image);
+        Utility.setImage(getURLString("image", item), holder.img);
+
+
        /*rowView.setOnClickListener(new DialogInterface.OnClickListener() {
 
             @Override
