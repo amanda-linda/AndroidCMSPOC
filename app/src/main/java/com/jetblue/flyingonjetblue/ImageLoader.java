@@ -28,10 +28,12 @@ public class ImageLoader extends AsyncTask<String, String, Bitmap> {
      * @param imageStore : Data structure where the Bitmaps are stored
      */
     public ImageLoader (ArrayList<Pair<String,Bitmap>> imageStore){
+
         store = imageStore;
     }
 
     protected Bitmap doInBackground(String... args) {
+        Log.d("WARN", "DOING IN BACKGROUND");
         Bitmap bitmap = null;
         try {
             Log.d("URL", args[0]);
@@ -51,7 +53,7 @@ public class ImageLoader extends AsyncTask<String, String, Bitmap> {
         }
         if(image != null && view !=null) {
             view.setImageBitmap(image);
-            Log.d("SUCCESS", image.toString());
+            Log.d("SUCCESS", store.size()+"");
         }
     }
     protected void setImageView(ImageView v){

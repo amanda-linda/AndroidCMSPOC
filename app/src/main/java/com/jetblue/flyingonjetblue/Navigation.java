@@ -17,8 +17,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
 
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.AdapterViewFlipper;
 import android.widget.GridView;
 import android.widget.TextView;
+import android.widget.ViewAnimator;
 
 
 import org.json.JSONArray;
@@ -221,30 +225,23 @@ Log.d("INFLATE", pageJSON);
 
             GridView content = (GridView) rootView.findViewById(R.id.pageContentGrid);
 
+
             JSONObject[] list = null;
             try {
                 JSONArray objects = null;
                 objects = data.getJSONArray("sections");
-                list = jsonArraytoList(objects);
+                list = Utility.jsonArraytoList(objects);
+
+                PageDataAdapter dataAdapter = new PageDataAdapter(getActivity(), R.id.pageContentGrid,list);
+                content.setAdapter(dataAdapter);
             } catch (JSONException e) {
                 e.printStackTrace();
             }
 
-            PageDataAdapter dataAdapter = new PageDataAdapter(getActivity(), R.id.pageContentGrid,list);
-
-            content.setAdapter(dataAdapter);
-
+           // content.setFlipInterval(1000);
+           // content.startFlipping();
             return rootView;
 
-        }
-
-        private JSONObject[] jsonArraytoList(JSONArray array) throws JSONException {
-            JSONObject[] object = new JSONObject[array.length()];
-
-            for (int i=0; i<array.length(); i++) {
-                object[i]= array.getJSONObject(i);
-            }
-            return object;
         }
 
         private String getString(String key){
